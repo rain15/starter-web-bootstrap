@@ -1,0 +1,75 @@
+/* # Table of Contents
+
+- BASE STYLES
+
+- GRID
+
+- HEADER
+
+- ABOUT
+
+- WORK
+
+- CONTACT
+	
+*/
+
+/* # BASE STYLES
+---------------------------------------------------------------------------------------------------- */
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/* # GRID
+---------------------------------------------------------------------------------------------------- */
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/* # HEADER
+---------------------------------------------------------------------------------------------------- */
+        
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+}
+
+/* # ABOUT
+---------------------------------------------------------------------------------------------------- */
+    
+
+    
+
+/* # FOR TESTING - it adds dotted borders around the divs to see alignment etc.,
+---------------------------------------------------------------------------------------------------- */
+
+
+/*   
+ 
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }
+*/
+
